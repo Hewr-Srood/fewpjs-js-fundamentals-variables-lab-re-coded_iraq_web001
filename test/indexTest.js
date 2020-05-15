@@ -4,7 +4,7 @@ const path = require('path')
 const babel = require('babel-core');
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8');
-let companyName = 'Scuber';
+const companyName = 'Scuber';
 
 describe('index.js', function () {
   describe('companyName', function () {
